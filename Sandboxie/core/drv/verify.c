@@ -572,7 +572,7 @@ _FX NTSTATUS KphValidateCertificate()
     // Никогда не истекает
     Verify_CertInfo.expirers_in_sec = (ULONG)(-1); // максимальное время до истечения
     
-    // Всегда возвращаем успешный статус
+    // Всегда возвращаем успешный статус далее
     return STATUS_SUCCESS;
 }
 
